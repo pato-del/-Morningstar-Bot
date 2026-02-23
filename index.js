@@ -7,7 +7,6 @@ const ytdl = require("ytdl-core");
 
 // ---------------------- ENV VARIABLES ----------------------
 const OWNER = process.env.OWNER;               // Your WhatsApp number
-const API_KEY = process.env.FOOTBALL_API_KEY; // For EPL
 
 // ---------------------- SESSIONS STORAGE ----------------------
 // sessions.json will store all user session info
@@ -142,4 +141,5 @@ async function startBot() {
 }
 
 // ---------------------- RUN BOT ----------------------
+
 startBot();
